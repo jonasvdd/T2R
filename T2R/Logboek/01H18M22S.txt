@@ -1,0 +1,38 @@
+This program was made by Jonas Van Der Donckt
+
+-------------------INITIALIZING PICTURES------------------
+these pictures were found:
+	blauw
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\blauw.PNG
+	Deck
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Deck.PNG
+	DestinationCards
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\DestinationCards.PNG
+	geel
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\geel.PNG
+	Groen
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Groen.PNG
+	Locomotief
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Locomotief.PNG
+	Map
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Map.png
+	Oranje
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Oranje.PNG
+	playerOptions
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\playerOptions.jpg
+	Players
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Players.jpg
+	rood
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\rood.PNG
+	roze
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\roze.PNG
+	T2R
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\T2R.ico.jpg
+	wallpaper
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\wallpaper.jpeg
+	wallpaper2
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\wallpaper2.png
+	Wit
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Wit.PNG
+	Zwart
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Zwart.PNG

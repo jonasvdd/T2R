@@ -1,0 +1,195 @@
+Cadiz	0,064049587	0,880863039	Lisboa	Madrid					
+Lisboa	0,010847107	0,808630394	Cadiz	Madrid					
+Madrid	0,064049587	0,778611632	Lisboa	Cadiz	Barcelona	Pamplona			
+Barcelona	0,154442149	0,794559099	Pamplona	Madrid	Marseille				
+Pamplona	0,145144628	0,665103189	Madrid	Barcelona	Marseille	Paris	Brest		
+Brest	0,08161157	0,427767355	Pamplona	Paris	Dieppe				
+Paris	0,19731405	0,450281426	Dieppe	Brest	Pamplona	Marseille	Zurich	Frankfurt	Bruxelles
+Dieppe	0,157024793	0,385553471	Brest	Paris	Bruxelles	London			
+Edinburgh	0,110020661	0,046904315	London						
+London	0,164256198	0,25891182	Edinburgh	Dieppe	Amsterdam				
+Amsterdam	0,243801653	0,262664165	London	Bruxelles	Frankfurt	Essen			
+Bruxelles	0,226239669	0,329268293	Dieppe	Paris	Frankfurt	Amsterdam			
+Essen	0,310433884	0,274859287	Amsterdam	Frankfurt	Berlin	Kobenhavn			
+Marseille	0,268595041	0,65478424	Paris	Pamplona	Barcelona	Roma	Zurich		
+Zurich	0,290289256	0,523452158	Paris	Marseille	Venezia	Munchen			
+Frankfurt	0,299070248	0,377110694	Amsterdam	Bruxelles	Paris	Munchen	Berlin	Essen	
+Munchen	0,345041322	0,438086304	Frankfurt	Zurich	Venezia	Wien			
+Venezia	0,358987603	0,569418386	Munchen	Zurich	Roma	Zagrab			
+Roma	0,364669421	0,694183865	Marseille	Palermo	Brindisi	Venezia			
+Palermo	0,395144628	0,879924953	Roma	Brindisi	Smyrna				
+Brindisi	0,433884298	0,729831144	Roma	Palermo	Athina				
+Wien	0,436466942	0,459662289	Berlin	Munchen	Zagrab	Budapest	Warszawa		
+Zagrab	0,425619835	0,582551595	Wien	Venezia	Sarajevo	Budapest			
+Kobenhavn	0,367252066	0,130393996	Essen	Stockholm					
+Stockholm	0,451446281	0,019699812	Kobenhavn	Petrograd	
+Danzig	0,481921488	0,187617261	Berlin	Warsawa	Riga				
+Berlin	0,390495868	0,297373358	Essen	Frankfurt	Wien	Warszawa	Danzig		
+Sarajevo	0,493801653	0,665103189	Zagrab	Athina	Sofia	Budapest			
+Athina	0,534090909	0,840525328	Sarajevo	Brindisi	Smyrna	Sofia			
+Sofia	0,54803719	0,68011257	Sarajevo	Athina	Constantinople	Bucuresti			
+Budapest	0,474173554	0,496247655	Wien	Zagrab	Sarajevo	Bucuresti	Kyiv		
+Riga	0,549586777	0,059099437	Danzig	Wilno	Petrograd				
+Warszawa	0,521694215	0,287054409	Danzig	Berlin	Wien	Kyiv	Wilno		
+Smyrna	0,604338843	0,875234522	Athina	Palermo	Angora	Constantinople			
+Angora	0,70196281	0,839587242	Constantinople	Smyrna	Erzurum				
+Constantinople	0,63946281	0,764540338	Bucuresti	Sofia	Smyrna	Angora	Sevastopol		
+Bucuresti	0,598140496	0,591932458	Budapest	Sofia	Constantinople	Sevastopol	Kyiv		
+Kyiv	0,645144628	0,357410882	Wilno	Warszawa	Budapest	Bucuresti	Kharkov	Smolensk	
+Wilno	0,613119835	0,248592871	Riga	Warszawa	Kyiv	Smolensk	Petrograd		
+Petrograd	0,686983471	0,051594747	Stockholm	Riga	Wilno	Moskva			
+Moskva	0,766012397	0,222326454	Petrograd	Smolensk	Kharkov				
+Kharkov	0,75464876	0,4315197	Moskva	Kyiv	Rostov				
+Sevastopol	0,710227273	0,610694184	Bucuresti	Constantinople	Erzurum	Sochi	Rostov		
+Sochi	0,781508264	0,632270169	Rostov	Sevastopol	Erzurum				
+Erzurum	0,766012397	0,805816135	Sochi	Sevastopol	Angora				
+Smolensk	0,695764463	0,255159475	Wilno	Kyiv	Moskva			
+Rostov	0,787190083	0,505628518	Kharkov	Sevastopol	Sochi	
+Cards
+Edinburgh	Athina	21
+Brest	Petrograd	20
+Lisboa	Danzig	20
+Kobenhavn	Erzurum	21
+Cadiz	Stockholm	21
+Palermo	Moskva	20
+Budapest	Sofia	5
+Athina	Wilno	11
+Zurich	Budapest	6
+Rostov	Erzurum	5
+Sofia	Smyrna	5
+Marseille	Essen	8
+Smolenks	Rostov	8
+Amsterdam	Pamplona	7
+Kyiv	Sochi	8
+Athina	Angora	5
+Brest	Venezia	8
+Barcelona	Munchen	8
+Berlin	Bucuresti	8
+Barcelona	Bruxelles	8
+Kyiv	Petrograd	6
+Zagrab	Brindisi	6
+Warszawa	Smolensk	6
+London	Berlin	7
+EdinBurgh	Paris	7
+Brest	Marseille	7
+Bruxelles	Danzig	9
+Berlin	Roma	9
+Sarajevo	Sevastopol	8
+Frankfurt	Kobenhavn	5
+Palermo	Constantinople	8
+London	Wien	10
+Venezia	Constantinople	10
+Frankfurt	Smolensk	13
+Paris	Zagrab	7
+Amsterdam	Wilno	12
+Stockholm	Wien	11
+Riga	Bucuresti	10
+Madrid	Dieppe	8
+Madrid	Zurich	8
+Paris	Wien	8
+Roma	Smyrna	8
+Berlin	Moskva	12
+Essen	Kyiv	10
+Zurich	Brindisi	6
+Angora	Kharkov	10
+Tracks
+Amsterdam	Essen	Geel	3	0	0
+Amsterdam	Frankfurt	Wit	2	0	0
+Angora	Constantinople	Grijs	2	1	0
+Angora	Erzurum	Zwart	3	0	0
+Athina	Smyrna	Grijs	2	0	1
+Barcelona	Marseille	Grijs	4	0	0
+Barcelona	Pamplona	Grijs	2	1	0
+Berlin	Danzig	Grijs	4	0	0
+Berlin	Warszawa	Roze	4	0	0
+Berlin	Warszawa	Geel	4	0	0
+Berlin	Wien	Groen	3	0	0
+Brest	Dieppe	Oranje	2	0	0
+Brest	Paris	Zwart	3	0	0
+Brindisi	Athina	Grijs	4	0	1
+Brindisi	Palermo	Grijs	3	0	1
+Bruxelles	Amsterdam	Zwart	1	0	0
+Bruxelles	Frankfurt	Blauw	2	0	0
+Bucuresti	Constantinople	Geel	3	0	0
+Bucuresti	Sevastopol	Wit	4	0	0
+Budapest	Bucuresti	Grijs	4	1	0
+Budapest	Kyiv	Grijs	6	1	0
+Budapest	Sarajevo	Roze	3	0	0
+Cadiz	Lisboa	Blauw	2	0	0
+Cadiz	Madrid	Oranje	3	0	0
+Danzig	Riga	Zwart	3	0	0
+Danzig	Warszawa	Grijs	2	0	0
+Dieppe	Bruxelles	Groen	2	0	0
+Dieppe	London	Grijs	2	0	1
+Dieppe	Paris	Roze	1	0	0
+Essen	Berlin	Blauw	2	0	0
+Essen	Kobenhavn	Grijs	3	0	1
+Frankfurt	Berlin	Zwart	3	0	0
+Frankfurt	Berlin	Rood	3	0	0
+Frankfurt	Essen	Groen	2	0	0
+Frankfurt	Munchen	Roze	2	0	0
+Kharkov	Moskva	Grijs	4	0	0
+Kharkov	Rostov	Groen	2	0	0
+Kobenhavn	Stockholm	Wit	3	0	0
+Kobenhavn	Stockholm	Geel	3	0	0
+Kyiv	Bucuresti	Grijs	4	0	0
+Kyiv	Kharkov	Grijs	4	0	0
+Kyiv	Smolensk	Rood	3	0	0
+Lisboa	Madrid	Roze	3	0	0
+London	Amsterdam	Grijs	2	0	2
+London	Edinburgh	Zwart	4	0	0
+London	Edinburgh	Oranje	4	0	0
+Madrid	Barcelona	Geel	2	0	0
+Madrid	Pamplona	Zwart	3	1	0
+Madrid	Pamplona	Wit	3	1	0
+Marseille	Roma	Grijs	4	1	0
+Munchen	Venezia	Blauw	2	1	0
+Munchen	Wien	Oranje	3	0	0
+Palermo	Smyrna	Grijs	6	0	2
+Pamplona	Brest	Roze	4	0	0
+Pamplona	Marseille	Rood	4	0	0
+Pamplona	Paris	Blauw	4	0	0
+Pamplona	Paris	groen	4	0	0
+Paris	Bruxelles	Geel	2	0	0
+Paris	Bruxelles	Rood	2	0	0
+Paris	Frankfurt	Wit	3	0	0
+Paris	Frankfurt	Oranje	3	0	0
+Paris	Marseille	Grijs	4	0	0
+Paris	Zurich	Grijs	3	1	0
+Petrograd	Moskva	Wit	4	0	0
+Riga	Petrograd	Grijs	4	0	0
+Riga	Wilno	Groen	4	0	0
+Roma	Brindisi	Wit	2	0	0
+Roma	Palermo	Grijs	4	0	1
+Rostov	Sochi	Grijs	2	0	0
+Sarajevo	Athina	Groen	4	0	0
+Sarajevo	Sofia	Grijs	2	1	0
+Sevastopol	Constantinople	Grijs	4	0	2
+Sevastopol	Erzurum	Grijs	4	0	2
+Sevastopol	Rostov	Grijs	4	0	0
+Sevastopol	Sochi	Grijs	2	0	1
+Smolensk	Moskva	Oranje	2	0	0
+Smyrna	Angora	Oranje	3	1	0
+Smyrna	Constantinople	Grijs	2	1	0
+Sochi	Erzurum	Rood	3	1	0
+Sofia	Athina	Roze	3	0	0
+Sofia	Bucuresti	Grijs	2	1	0
+Sofia	Constantinople	Blauw	3	0	0
+Stockholm	Petrograd	Grijs	8	1	0
+Venezia	Roma	Zwart	2	0	0
+Venezia	Zagrab	Grijs	2	0	0
+Warszawa	Kyiv	Grijs	4	0	0
+Warszawa	Wilno	Rood	3	0	0
+Wien	Budapest	Wit	1	0	0
+Wien	Budapest	Rood	1	0	0
+Wien	Warszawa	Blauw	4	0	0
+Wien	Zagrab	Grijs	2	0	0
+Wilno	Kyiv	Grijs	2	0	0
+Wilno	Petrograd	Blauw	4	0	0
+Wilno	Smolensk	Geel	3	0	0
+Zagrab	Budapest	Oranje	2	0	0
+Zagrab	Sarajevo	Rood	3	0	0
+Zurich	Marseille	Roze	2	1	0
+Zurich	Munchen	Geel	2	1	0
+Zurich	Venezia	Groen	2	1	0
+END

@@ -1,0 +1,6174 @@
+This program was made by Jonas Van Der Donckt
+
+-------------------INITIALIZING PICTURES------------------
+these pictures were found:
+	blauw
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\blauw.PNG
+	Deck
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Deck.PNG
+	DestinationCards
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\DestinationCards.PNG
+	geel
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\geel.PNG
+	Groen
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Groen.PNG
+	Locomotief
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Locomotief.PNG
+	Map
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Map.png
+	Oranje
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Oranje.PNG
+	playerOptions
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\playerOptions.jpg
+	Players
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Players.jpg
+	rood
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\rood.PNG
+	roze
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\roze.PNG
+	T2R
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\T2R.ico.jpg
+	wallpaper
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\wallpaper.jpeg
+	wallpaper2
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\wallpaper2.png
+	Wit
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Wit.PNG
+	Zwart
+C:\Users\Jonas\OneDrive\Ugent\tweede Bachelor\C# projecten\Project Softwar\T2R\T2R\foto's\Zwart.PNG
+
+-------------------INITIALIZING ELEMENTS------------------
+THE CORRECT DATA WAS ADDED
+
+-------------------ADDING CITIES------------------
+Stad:	Cadiz	ID:	0
+Buren:	Lisboa	Madrid	
+Stad:	Lisboa	ID:	1
+Buren:	Cadiz	Madrid	
+Stad:	Madrid	ID:	2
+Buren:	Lisboa	Cadiz	Barcelona	Pamplona	
+Stad:	Barcelona	ID:	3
+Buren:	Pamplona	Madrid	Marseille	
+Stad:	Pamplona	ID:	4
+Buren:	Madrid	Barcelona	Marseille	Paris	Brest	
+Stad:	Brest	ID:	5
+Buren:	Pamplona	Paris	Dieppe	
+Stad:	Paris	ID:	6
+Buren:	Dieppe	Brest	Pamplona	Marseille	Zurich	Frankfurt	Bruxelles	
+Stad:	Dieppe	ID:	7
+Buren:	Brest	Paris	Bruxelles	London	
+Stad:	Edinburgh	ID:	8
+Buren:	London	
+Stad:	London	ID:	9
+Buren:	Edinburgh	Dieppe	Amsterdam	
+Stad:	Amsterdam	ID:	10
+Buren:	London	Bruxelles	Frankfurt	Essen	
+Stad:	Bruxelles	ID:	11
+Buren:	Dieppe	Paris	Frankfurt	Amsterdam	
+Stad:	Essen	ID:	12
+Buren:	Amsterdam	Frankfurt	Berlin	Kobenhavn	
+Stad:	Marseille	ID:	13
+Buren:	Paris	Pamplona	Barcelona	Roma	Zurich	
+Stad:	Zurich	ID:	14
+Buren:	Paris	Marseille	Venezia	Munchen	
+Stad:	Frankfurt	ID:	15
+Buren:	Amsterdam	Bruxelles	Paris	Munchen	Berlin	Essen	
+Stad:	Munchen	ID:	16
+Buren:	Frankfurt	Zurich	Venezia	Wien	
+Stad:	Venezia	ID:	17
+Buren:	Munchen	Zurich	Roma	Zagrab	
+Stad:	Roma	ID:	18
+Buren:	Marseille	Palermo	Brindisi	Venezia	
+Stad:	Palermo	ID:	19
+Buren:	Roma	Brindisi	Smyrna	
+Stad:	Brindisi	ID:	20
+Buren:	Roma	Palermo	Athina	
+Stad:	Wien	ID:	21
+Buren:	Berlin	Munchen	Zagrab	Budapest	Warszawa	
+Stad:	Zagrab	ID:	22
+Buren:	Wien	Venezia	Sarajevo	Budapest	
+Stad:	Kobenhavn	ID:	23
+Buren:	Essen	Stockholm	
+Stad:	Stockholm	ID:	24
+Buren:	Kobenhavn	Petrograd	
+Stad:	Danzig	ID:	25
+Buren:	Berlin	Riga	
+Stad:	Berlin	ID:	26
+Buren:	Essen	Frankfurt	Wien	Warszawa	Danzig	
+Stad:	Sarajevo	ID:	27
+Buren:	Zagrab	Athina	Sofia	Budapest	
+Stad:	Athina	ID:	28
+Buren:	Sarajevo	Brindisi	Smyrna	Sofia	
+Stad:	Sofia	ID:	29
+Buren:	Sarajevo	Athina	Constantinople	Bucuresti	
+Stad:	Budapest	ID:	30
+Buren:	Wien	Zagrab	Sarajevo	Bucuresti	Kyiv	
+Stad:	Riga	ID:	31
+Buren:	Danzig	Wilno	Petrograd	
+Stad:	Warszawa	ID:	32
+Buren:	Danzig	Berlin	Wien	Kyiv	Wilno	
+Stad:	Smyrna	ID:	33
+Buren:	Athina	Palermo	Angora	Constantinople	
+Stad:	Angora	ID:	34
+Buren:	Constantinople	Smyrna	Erzurum	
+Stad:	Constantinople	ID:	35
+Buren:	Bucuresti	Sofia	Smyrna	Angora	Sevastopol	
+Stad:	Bucuresti	ID:	36
+Buren:	Budapest	Sofia	Constantinople	Sevastopol	Kyiv	
+Stad:	Kyiv	ID:	37
+Buren:	Wilno	Warszawa	Budapest	Bucuresti	Kharkov	Smolensk	
+Stad:	Wilno	ID:	38
+Buren:	Riga	Warszawa	Kyiv	Smolensk	Petrograd	
+Stad:	Petrograd	ID:	39
+Buren:	Stockholm	Riga	Wilno	Moskva	
+Stad:	Moskva	ID:	40
+Buren:	Petrograd	Smolensk	Kharkov	
+Stad:	Kharkov	ID:	41
+Buren:	Moskva	Kyiv	Rostov	
+Stad:	Sevastopol	ID:	42
+Buren:	Bucuresti	Constantinople	Erzurum	Sochi	Rostov	
+Stad:	Sochi	ID:	43
+Buren:	Rostov	Sevastopol	Erzurum	
+Stad:	Erzurum	ID:	44
+Buren:	Sochi	Sevastopol	Angora	
+Stad:	Smolensk	ID:	45
+Buren:	Wilno	Kyiv	Moskva	
+Stad:	Rostov	ID:	46
+Buren:	Kharkov	Sevastopol	Sochi	
+47 cities added
+
+-------------------ADDING DESTINATIONCARDS------------------
+
+-------------------40 NORMAL DESTINATIONCARDS ADDED------------------
+
+	Budapest - Sofia: 5 points
+
+	Athina - Wilno: 11 points
+
+	Zurich - Budapest: 6 points
+
+	Rostov - Erzurum: 5 points
+
+	Sofia - Smyrna: 5 points
+
+	Marseille - Essen: 8 points
+
+	Marseille - Rostov: 8 points
+
+	Amsterdam - Pamplona: 7 points
+
+	Kyiv - Sochi: 8 points
+
+	Athina - Angora: 5 points
+
+	Brest - Venezia: 8 points
+
+	Barcelona - Munchen: 8 points
+
+	Berlin - Bucuresti: 8 points
+
+	Barcelona - Bruxelles: 8 points
+
+	Kyiv - Petrograd: 6 points
+
+	Zagrab - Brindisi: 6 points
+
+	Warszawa - Smolensk: 6 points
+
+	London - Berlin: 7 points
+
+	London - Paris: 7 points
+
+	Brest - Marseille: 7 points
+
+	Bruxelles - Danzig: 9 points
+
+	Berlin - Roma: 9 points
+
+	Sarajevo - Sevastopol: 8 points
+
+	Frankfurt - Kobenhavn: 5 points
+
+	Palermo - Constantinople: 8 points
+
+	London - Wien: 10 points
+
+	Venezia - Constantinople: 10 points
+
+	Frankfurt - Smolensk: 13 points
+
+	Paris - Zagrab: 7 points
+
+	Amsterdam - Wilno: 12 points
+
+	Stockholm - Wien: 11 points
+
+	Riga - Bucuresti: 10 points
+
+	Madrid - Dieppe: 8 points
+
+	Madrid - Zurich: 8 points
+
+	Paris - Wien: 8 points
+
+	Roma - Smyrna: 8 points
+
+	Berlin - Moskva: 12 points
+
+	Essen - Kyiv: 10 points
+
+	Zurich - Brindisi: 6 points
+
+	Angora - Kharkov: 10 points
+
+
+
+-------------------6 LONG DESTINATIONCARDS ADDED------------------
+
+	Edinburgh - Athina: 21 points
+
+	Brest - Petrograd: 20 points
+
+	Lisboa - Danzig: 20 points
+
+	Kobenhavn - Erzurum: 21 points
+
+	Cadiz - Stockholm: 21 points
+
+	Palermo - Moskva: 20 points
+
+-------------------ADDING RAILROADS------------------
+99	Tracks added
+
+-------------------ADDING TRAINCARDS------------------
+110	TrainCards added
+Stad:	Cadiz	ID:	0
+Buren:	Lisboa	Madrid	
+
+-------------------------------------
+Stad:	Lisboa	ID:	1
+Buren:	Cadiz	Madrid	
+
+-------------------------------------
+Stad:	Madrid	ID:	2
+Buren:	Lisboa	Cadiz	Barcelona	Pamplona	
+
+-------------------------------------
+Stad:	Barcelona	ID:	3
+Buren:	Pamplona	Madrid	Marseille	
+
+-------------------------------------
+Stad:	Pamplona	ID:	4
+Buren:	Madrid	Barcelona	Marseille	Paris	Brest	
+
+-------------------------------------
+Stad:	Brest	ID:	5
+Buren:	Pamplona	Paris	Dieppe	
+
+-------------------------------------
+Stad:	Paris	ID:	6
+Buren:	Dieppe	Brest	Pamplona	Marseille	Zurich	Frankfurt	Bruxelles	
+
+-------------------------------------
+Stad:	Dieppe	ID:	7
+Buren:	Brest	Paris	Bruxelles	London	
+
+-------------------------------------
+Stad:	Edinburgh	ID:	8
+Buren:	London	
+
+-------------------------------------
+Stad:	London	ID:	9
+Buren:	Edinburgh	Dieppe	Amsterdam	
+
+-------------------------------------
+Stad:	Amsterdam	ID:	10
+Buren:	London	Bruxelles	Frankfurt	Essen	
+
+-------------------------------------
+Stad:	Bruxelles	ID:	11
+Buren:	Dieppe	Paris	Frankfurt	Amsterdam	
+
+-------------------------------------
+Stad:	Essen	ID:	12
+Buren:	Amsterdam	Frankfurt	Berlin	Kobenhavn	
+
+-------------------------------------
+Stad:	Marseille	ID:	13
+Buren:	Paris	Pamplona	Barcelona	Roma	Zurich	
+
+-------------------------------------
+Stad:	Zurich	ID:	14
+Buren:	Paris	Marseille	Venezia	Munchen	
+
+-------------------------------------
+Stad:	Frankfurt	ID:	15
+Buren:	Amsterdam	Bruxelles	Paris	Munchen	Berlin	Essen	
+
+-------------------------------------
+Stad:	Munchen	ID:	16
+Buren:	Frankfurt	Zurich	Venezia	Wien	
+
+-------------------------------------
+Stad:	Venezia	ID:	17
+Buren:	Munchen	Zurich	Roma	Zagrab	
+
+-------------------------------------
+Stad:	Roma	ID:	18
+Buren:	Marseille	Palermo	Brindisi	Venezia	
+
+-------------------------------------
+Stad:	Palermo	ID:	19
+Buren:	Roma	Brindisi	Smyrna	
+
+-------------------------------------
+Stad:	Brindisi	ID:	20
+Buren:	Roma	Palermo	Athina	
+
+-------------------------------------
+Stad:	Wien	ID:	21
+Buren:	Berlin	Munchen	Zagrab	Budapest	Warszawa	
+
+-------------------------------------
+Stad:	Zagrab	ID:	22
+Buren:	Wien	Venezia	Sarajevo	Budapest	
+
+-------------------------------------
+Stad:	Kobenhavn	ID:	23
+Buren:	Essen	Stockholm	
+
+-------------------------------------
+Stad:	Stockholm	ID:	24
+Buren:	Kobenhavn	Petrograd	
+
+-------------------------------------
+Stad:	Danzig	ID:	25
+Buren:	Berlin	Riga	
+
+-------------------------------------
+Stad:	Berlin	ID:	26
+Buren:	Essen	Frankfurt	Wien	Warszawa	Danzig	
+
+-------------------------------------
+Stad:	Sarajevo	ID:	27
+Buren:	Zagrab	Athina	Sofia	Budapest	
+
+-------------------------------------
+Stad:	Athina	ID:	28
+Buren:	Sarajevo	Brindisi	Smyrna	Sofia	
+
+-------------------------------------
+Stad:	Sofia	ID:	29
+Buren:	Sarajevo	Athina	Constantinople	Bucuresti	
+
+-------------------------------------
+Stad:	Budapest	ID:	30
+Buren:	Wien	Zagrab	Sarajevo	Bucuresti	Kyiv	
+
+-------------------------------------
+Stad:	Riga	ID:	31
+Buren:	Danzig	Wilno	Petrograd	
+
+-------------------------------------
+Stad:	Warszawa	ID:	32
+Buren:	Danzig	Berlin	Wien	Kyiv	Wilno	
+
+-------------------------------------
+Stad:	Smyrna	ID:	33
+Buren:	Athina	Palermo	Angora	Constantinople	
+
+-------------------------------------
+Stad:	Angora	ID:	34
+Buren:	Constantinople	Smyrna	Erzurum	
+
+-------------------------------------
+Stad:	Constantinople	ID:	35
+Buren:	Bucuresti	Sofia	Smyrna	Angora	Sevastopol	
+
+-------------------------------------
+Stad:	Bucuresti	ID:	36
+Buren:	Budapest	Sofia	Constantinople	Sevastopol	Kyiv	
+
+-------------------------------------
+Stad:	Kyiv	ID:	37
+Buren:	Wilno	Warszawa	Budapest	Bucuresti	Kharkov	Smolensk	
+
+-------------------------------------
+Stad:	Wilno	ID:	38
+Buren:	Riga	Warszawa	Kyiv	Smolensk	Petrograd	
+
+-------------------------------------
+Stad:	Petrograd	ID:	39
+Buren:	Stockholm	Riga	Wilno	Moskva	
+
+-------------------------------------
+Stad:	Moskva	ID:	40
+Buren:	Petrograd	Smolensk	Kharkov	
+
+-------------------------------------
+Stad:	Kharkov	ID:	41
+Buren:	Moskva	Kyiv	Rostov	
+
+-------------------------------------
+Stad:	Sevastopol	ID:	42
+Buren:	Bucuresti	Constantinople	Erzurum	Sochi	Rostov	
+
+-------------------------------------
+Stad:	Sochi	ID:	43
+Buren:	Rostov	Sevastopol	Erzurum	
+
+-------------------------------------
+Stad:	Erzurum	ID:	44
+Buren:	Sochi	Sevastopol	Angora	
+
+-------------------------------------
+Stad:	Smolensk	ID:	45
+Buren:	Wilno	Kyiv	Moskva	
+
+-------------------------------------
+Stad:	Rostov	ID:	46
+Buren:	Kharkov	Sevastopol	Sochi	
+
+-------------------------------------
+
+-------------------START GAME------------------
+SHUFFLING CARDS
+	long destination cards shuffled
+	normal destination cards shuffled
+	traincards shuffled
+
+-------------------INITIALZIING PLAYERS------------------
+asking input from playerform
+real players:	0
+Robots:	2
+
+-------------------ADDING PLAYERS AND DEVIDING THE CARDS------------------
+2 players added
+
+	Jeff	(Color [Black])
+punten
+	0
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	40
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Frankfurt - Kobenhavn: 5 points
+Traincards:
+	Locomotief	Locomotief	Locomotief	Geel	Oranje	Blauw
+
+
+	Luka	(Color [Yellow])
+punten
+	0
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	40
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Geel	Geel	Oranje	Oranje	Rood
+
+
+-------------------REMAINING CARDS------------------
+98 traincards
+36 normdestcards
+4 longdestcards
+
+-------------------REFRESHING PICTURES------------------
+
+
+Round 0
+De zichtbare kaarten zijn
+	Blauw	Locomotief	Oranje	Wit	Zwart
+
+	Jeff	(Color [Black])
+punten
+	0
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	40
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Frankfurt - Kobenhavn: 5 points
+Traincards:
+	Locomotief	Locomotief	Locomotief	Geel	Oranje	Blauw
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Frankfurt
+	Essen
+	Kobenhavn
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Frankfurt - Kobenhavn: 5 points
+	Frankfurt - Essen
+	Essen - Kobenhavn
+Jeff is trying to build a road between: 
+	from: Frankfurt to: Essen
+	lengte: 2
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Locomotief
+Oranje
+Wit
+Zwart
+
+
+Round 0
+De zichtbare kaarten zijn
+	Blauw	Locomotief	Oranje	Wit	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	0
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	40
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Geel	Geel	Oranje	Oranje	Rood
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+	Bruxelles - Amsterdam
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Wilno to: Kyiv
+	lengte: 2
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Locomotief
+Oranje
+Wit
+Zwart
+
+
+Round 1
+De zichtbare kaarten zijn
+	Blauw	Locomotief	Oranje	Wit	Zwart
+
+	Jeff	(Color [Black])
+punten
+	2
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	38
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Frankfurt - Kobenhavn: 5 points
+Traincards:
+	Locomotief	Geel	Oranje	Blauw
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Frankfurt
+	Essen
+	Kobenhavn
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Frankfurt - Kobenhavn: 5 points
+	Frankfurt - Essen
+	Essen - Kobenhavn
+Jeff is trying to build a road between: 
+	from: Essen to: Kobenhavn
+	lengte: 3
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 1
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+you can't pick an locomotive as a visible card
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Oranje
+Wit
+Zwart
+Roze
+Zwart
+
+
+Round 1
+De zichtbare kaarten zijn
+	Oranje	Roze	Wit	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	2
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	38
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Oranje	Oranje	Rood
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Dieppe - Bruxelles
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Kyiv to: Bucuresti
+	lengte: 4
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Wit
+Zwart
+Zwart
+Oranje
+Wit
+
+
+Round 2
+De zichtbare kaarten zijn
+	Oranje	Wit	Wit	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	2
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	38
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Frankfurt - Kobenhavn: 5 points
+Traincards:
+	Locomotief	Locomotief	Geel	Oranje	Blauw	Blauw
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Frankfurt
+	Essen
+	Kobenhavn
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Frankfurt - Kobenhavn: 5 points
+	Frankfurt - Essen
+	Essen - Kobenhavn
+Jeff is trying to build a road between: 
+	from: Essen to: Kobenhavn
+	lengte: 3
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 1
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Oranje
+Wit
+Wit
+Zwart
+Zwart
+
+
+Round 2
+De zichtbare kaarten zijn
+	Oranje	Wit	Wit	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	2
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	38
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Oranje	Oranje	Oranje	Rood
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Dieppe - Bruxelles
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Kyiv to: Bucuresti
+	lengte: 4
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Wit
+Zwart
+Zwart
+Zwart
+Blauw
+
+
+Round 3
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	11
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	35
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points
+Traincards:
+	Oranje	Blauw	Blauw
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DESTINATION CARD------------------
+Jeff picked:	
+	Barcelona - Bruxelles: 8 points
+the visible traincards are
+Blauw
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 3
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	2
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	38
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Oranje	Oranje	Oranje	Oranje	Rood	Wit
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Dieppe - Bruxelles
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Kyiv to: Bucuresti
+	lengte: 4
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 4
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	11
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	35
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Blauw	Blauw
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Sarajevo
+	Sofia
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Sarajevo
+	Sarajevo - Sofia
+	Sofia - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Barcelona to: Pamplona
+	lengte: 2
+	kleur: Grijs
+	tunnel: ja
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 4
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Rood	Wit
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 7 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Zwart
+Oranje
+
+
+Round 5
+De zichtbare kaarten zijn
+	Oranje	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	13
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	33
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 8 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Sevastopol
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Sevastopol
+	Sevastopol - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Paris to: Bruxelles
+	lengte: 2
+	kleur: Geel
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Wit
+Rood
+
+
+Round 5
+De zichtbare kaarten zijn
+	Rood	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Rood	Wit	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 7 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Oranje
+Roze
+
+
+Round 6
+De zichtbare kaarten zijn
+	Oranje	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	13
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	33
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Oranje	Zwart
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Paris to: Bruxelles
+	lengte: 2
+	kleur: Geel
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Oranje
+Roze
+Zwart
+Zwart
+Zwart
+
+
+Round 6
+De zichtbare kaarten zijn
+	Oranje	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Rood	Rood	Wit	Wit	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 7 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Roze
+Locomotief
+
+
+Round 7
+De zichtbare kaarten zijn
+	Locomotief	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	15
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	31
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Oranje	Zwart
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Roze
+Zwart
+Zwart
+Zwart
+Locomotief
+
+
+Round 7
+De zichtbare kaarten zijn
+	Locomotief	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Roze	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Roze
+Zwart
+Zwart
+Zwart
+Zwart
+
+
+Round 8
+De zichtbare kaarten zijn
+	Roze	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	15
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	31
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Oranje	Zwart
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Roze
+Geel
+
+
+Round 8
+De zichtbare kaarten zijn
+	Geel	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Roze	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Rood
+Rood
+
+
+Round 9
+De zichtbare kaarten zijn
+	Rood	Rood	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	15
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	31
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Oranje	Zwart	Zwart	Roze
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Dieppe to: Bruxelles
+	lengte: 2
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Blauw
+Wit
+
+
+Round 9
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Roze	Roze	Geel	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Roze
+Geel
+
+
+Round 10
+De zichtbare kaarten zijn
+	Geel	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	15
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	31
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Oranje	Oranje	Zwart	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Zagrab - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Dieppe to: Bruxelles
+	lengte: 2
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Oranje
+Blauw
+
+
+Round 10
+De zichtbare kaarten zijn
+	Blauw	Oranje	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Roze	Roze	Geel	Oranje	Rood	Rood	Wit	Wit	Wit	Wit	Blauw	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Groen
+Zwart
+
+
+Round 11
+De zichtbare kaarten zijn
+	Groen	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	15
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	31
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Oranje	Oranje	Zwart	Zwart	Roze	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Dieppe to: Paris
+	lengte: 1
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Groen
+Zwart
+Zwart
+Zwart
+Zwart
+
+
+Round 11
+De zichtbare kaarten zijn
+	Groen	Zwart	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	9
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	34
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Roze	Roze	Roze	Roze	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Wit	Wit	Blauw	Blauw	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Petrograd
+	Moskva
+	Smolensk
+	Kyiv
+	Bucuresti
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Petrograd
+	Petrograd - Moskva
+	Smolensk - Moskva
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+Luka is trying to build a road between: 
+	from: Riga to: Petrograd
+	lengte: 4
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Groen
+Zwart
+Zwart
+Zwart
+Zwart
+
+
+Round 12
+De zichtbare kaarten zijn
+	Groen	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	16
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	29
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Oranje	Oranje	Zwart	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Zagrab - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Wit
+Wit
+
+
+Round 12
+De zichtbare kaarten zijn
+	Wit	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	16
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	30
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Wit	Wit	Blauw	Blauw	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Petrograd
+	Moskva
+	Smolensk
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Petrograd
+	Petrograd - Moskva
+	Smolensk - Moskva
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Petrograd to: Moskva
+	lengte: 4
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Wit
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 13
+De zichtbare kaarten zijn
+	Wit	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	16
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	29
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Oranje	Oranje	Zwart	Zwart	Zwart	Roze	Rood	Rood	Groen
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Brest
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Zagrab - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Brest
+	Brest - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+Jeff is trying to build a road between: 
+	from: Smyrna to: Constantinople
+	lengte: 2
+	kleur: Grijs
+	tunnel: ja
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Wit
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 13
+De zichtbare kaarten zijn
+	Wit	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	23
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	22
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Blauw	Blauw	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+	Bruxelles - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Groen
+Locomotief
+
+
+Round 14
+De zichtbare kaarten zijn
+	Groen	Locomotief	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	18
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	27
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Oranje	Oranje	Zwart	Roze	Rood	Rood	Groen
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Zagrab - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Dieppe to: Bruxelles
+	lengte: 2
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+you can't pick an locomotive as a visible card
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Groen
+Wit
+
+
+Round 14
+De zichtbare kaarten zijn
+	Groen	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	23
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	22
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Blauw	Blauw	Blauw	Locomotief
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Blauw
+Geel
+
+
+Round 15
+De zichtbare kaarten zijn
+	Blauw	Geel	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	18
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	27
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Oranje	Oranje	Zwart	Roze	Rood	Rood	Groen	Groen
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Sarajevo
+	Athina
+	Smyrna
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Frankfurt - Essen
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Zagrab - Sarajevo
+	Sarajevo - Athina
+	Athina - Smyrna
+	Smyrna - Angora
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Brest to: Dieppe
+	lengte: 2
+	kleur: Oranje
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Geel
+Zwart
+Zwart
+Zwart
+
+
+Round 15
+De zichtbare kaarten zijn
+	Blauw	Geel	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	23
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	22
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Riga - Bucuresti: 10 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw	Blauw	Blauw	Locomotief	Groen
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Riga
+	Wilno
+	Kyiv
+	Bucuresti
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Riga - Bucuresti: 10 points
+	Riga - Wilno
+	Wilno - Kyiv
+	Kyiv - Bucuresti
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+Luka is trying to build a road between: 
+	from: Riga to: Wilno
+	lengte: 4
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Geel
+Zwart
+Zwart
+Zwart
+
+
+Round 16
+De zichtbare kaarten zijn
+	Blauw	Geel	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	20
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	23
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Zwart	Roze	Rood	Rood	Groen	Groen
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Kyiv
+	Kharkov
+	Rostov
+	Sochi
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Dieppe
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Kyiv
+	Kyiv - Kharkov
+	Kharkov - Rostov
+	Rostov - Sochi
+	Sochi - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Dieppe - Paris
+	Dieppe - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Dieppe to: Bruxelles
+	lengte: 2
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Geel
+Zwart
+Zwart
+Zwart
+
+
+Round 16
+De zichtbare kaarten zijn
+	Blauw	Geel	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	40
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	18
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DESTINATION CARD------------------
+Luka picked:	
+	Berlin - Roma: 9 points
+the visible traincards are
+Blauw
+Geel
+Zwart
+Zwart
+Zwart
+
+
+Round 17
+De zichtbare kaarten zijn
+	Blauw	Geel	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Kyiv
+	Kharkov
+	Rostov
+	Sochi
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Kyiv
+	Kyiv - Kharkov
+	Kharkov - Rostov
+	Rostov - Sochi
+	Sochi - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Wit
+Rood
+
+
+Round 17
+De zichtbare kaarten zijn
+	Rood	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	40
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	18
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Wit	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Munchen - Wien
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Amsterdam to: Frankfurt
+	lengte: 2
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Paris to: Frankfurt
+	lengte: 3
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Zwart
+Locomotief
+
+
+Round 18
+De zichtbare kaarten zijn
+	Locomotief	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Geel	Blauw	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Zwart
+Geel
+
+
+Round 18
+De zichtbare kaarten zijn
+	Geel	Zwart	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	40
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	18
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Rood	Wit	Wit	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Munchen - Wien
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Amsterdam to: Frankfurt
+	lengte: 2
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Geel
+Zwart
+Zwart
+Zwart
+Zwart
+
+
+Round 19
+De zichtbare kaarten zijn
+	Geel	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Geel	Geel	Blauw	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Zwart
+Locomotief
+
+
+Round 19
+De zichtbare kaarten zijn
+	Locomotief	Zwart	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	42
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	14
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Rood	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Munchen - Wien
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Paris to: Frankfurt
+	lengte: 3
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Zwart
+Rood
+
+
+Round 20
+De zichtbare kaarten zijn
+	Rood	Zwart	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Geel	Geel	Geel	Blauw	Zwart	Zwart	Roze	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Smolensk
+	Kyiv
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Smolensk
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Geel
+Rood
+
+
+Round 20
+De zichtbare kaarten zijn
+	Geel	Rood	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	42
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	14
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Oranje	Oranje	Rood	Rood	Rood	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 9 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Pamplona
+	Paris
+	Frankfurt
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Frankfurt - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Munchen - Wien
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Paris to: Frankfurt
+	lengte: 3
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Wit
+Locomotief
+
+
+Round 21
+De zichtbare kaarten zijn
+	Locomotief	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Geel	Geel	Geel	Blauw	Zwart	Zwart	Zwart	Roze	Rood	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Smolensk
+	Kyiv
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Smolensk
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Wit
+Zwart
+Zwart
+Zwart
+Blauw
+
+
+Round 21
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	42
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	14
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Geel	Oranje	Oranje	Rood	Rood	Rood	Rood	Wit	Wit	Blauw	Blauw	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+	Frankfurt
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Bruxelles
+	Paris
+	Pamplona
+U zal 7 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Essen
+	Amsterdam
+	Frankfurt
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+	Bruxelles - Frankfurt
+	Amsterdam - Frankfurt
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Bruxelles - Frankfurt
+	Paris - Bruxelles
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Essen - Berlin
+	Amsterdam - Essen
+	Amsterdam - Frankfurt
+	Frankfurt - Munchen
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Frankfurt
+	lengte: 2
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Blauw
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 22
+De zichtbare kaarten zijn
+	Blauw	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Locomotief	Geel	Geel	Geel	Blauw	Zwart	Zwart	Zwart	Roze	Rood	Rood	Rood
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Smolensk
+	Kyiv
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Smolensk
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Oranje
+Wit
+
+
+Round 22
+De zichtbare kaarten zijn
+	Oranje	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	44
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	10
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Geel	Oranje	Oranje	Rood	Rood	Rood	Rood	Wit	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Barcelona
+	Pamplona
+	Paris
+	Frankfurt
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Pamplona
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Budapest
+	Zagrab
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Amsterdam - Frankfurt
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Venezia - Zagrab
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Amsterdam
+	lengte: 1
+	kleur: Zwart
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Oranje
+Rood
+
+
+Round 23
+De zichtbare kaarten zijn
+	Oranje	Rood	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Locomotief	Geel	Geel	Geel	Blauw	Blauw	Zwart	Zwart	Zwart	Roze	Rood	Rood	Rood	Wit
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Smolensk
+	Kyiv
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Smolensk
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Roze
+Roze
+
+
+Round 23
+De zichtbare kaarten zijn
+	Roze	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	44
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	10
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Geel	Oranje	Oranje	Oranje	Rood	Rood	Rood	Rood	Wit	Wit	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Barcelona
+	Pamplona
+	Paris
+	Frankfurt
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Frankfurt
+	Paris
+	Pamplona
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Budapest
+	Zagrab
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Frankfurt
+	Amsterdam - Frankfurt
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Amsterdam - Frankfurt
+	Paris - Frankfurt
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Venezia - Zagrab
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Paris to: Frankfurt
+	lengte: 3
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Roze
+Roze
+Zwart
+Zwart
+Zwart
+
+
+Round 24
+De zichtbare kaarten zijn
+	Roze	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	22
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	19
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Palermo - Constantinople: 8 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Locomotief	Locomotief	Geel	Geel	Geel	Oranje	Blauw	Blauw	Zwart	Zwart	Zwart	Roze	Rood	Rood	Rood	Rood	Wit
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Berlin
+	Warszawa
+	Wilno
+	Smolensk
+	Kyiv
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 3 steden moeten doorkruisen, voor het kortste pad
+	Palermo
+	Smyrna
+	Constantinople
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Essen - Berlin
+	Berlin - Warszawa
+	Warszawa - Wilno
+	Wilno - Smolensk
+	Kyiv - Smolensk
+	Kyiv - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Palermo - Constantinople: 8 points
+	Palermo - Smyrna
+	Smyrna - Constantinople
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+Jeff is trying to build a road between: 
+	from: Palermo to: Smyrna
+	lengte: 6
+	kleur: Grijs
+	tunnel: nee
+	minimum aantal locomotieven?: 2
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Roze
+Roze
+Zwart
+Zwart
+Zwart
+
+
+Round 24
+De zichtbare kaarten zijn
+	Roze	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	48
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	4
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Geel	Geel	Oranje	Oranje	Oranje	Rood	Rood	Rood	Rood	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 11 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Cadiz
+	Madrid
+	Barcelona
+	Pamplona
+	Paris
+	Bruxelles
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Pamplona
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Budapest
+	Zagrab
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Cadiz - Lisboa
+	Cadiz - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+	Bruxelles - Amsterdam
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Pamplona - Paris
+
+	Berlin - Roma: 9 points
+	Berlin - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Venezia - Zagrab
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Amsterdam
+	lengte: 1
+	kleur: Zwart
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Paris
+	lengte: 4
+	kleur: Blauw
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Wit
+Geel
+
+
+Round 25
+De zichtbare kaarten zijn
+	Geel	Wit	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	45
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	13
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Barcelona - Bruxelles: 8 points
+Traincards:
+	Geel	Geel	Geel	Oranje	Blauw	Blauw	Zwart	Zwart	Zwart	Roze	Wit
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DESTINATION CARD------------------
+Jeff picked:	
+	Berlin - Bucuresti: 8 points
+the visible traincards are
+Geel
+Wit
+Zwart
+Zwart
+Zwart
+
+
+Round 25
+De zichtbare kaarten zijn
+	Geel	Wit	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	48
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	4
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Roze	Roze	Geel	Geel	Oranje	Oranje	Oranje	Rood	Rood	Rood	Rood	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Frankfurt
+	Munchen
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+	Bruxelles - Amsterdam
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+
+	Berlin - Roma: 9 points
+	Frankfurt - Berlin
+	Frankfurt - Munchen
+	Munchen - Venezia
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Amsterdam
+	lengte: 1
+	kleur: Zwart
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Locomotief
+Roze
+
+
+Round 26
+De zichtbare kaarten zijn
+	Locomotief	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	45
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	13
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Barcelona - Bruxelles: 8 points	
+	Berlin - Bucuresti: 8 points
+Traincards:
+	Geel	Geel	Geel	Oranje	Blauw	Blauw	Zwart	Zwart	Zwart	Roze	Wit
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Amsterdam
+	Bruxelles
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Amsterdam - Essen
+	Bruxelles - Amsterdam
+	Bruxelles - Frankfurt
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+
+	Berlin - Bucuresti: 8 points
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+Jeff is trying to build a road between: 
+	from: Berlin to: Wien
+	lengte: 3
+	kleur: Groen
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Locomotief
+Roze
+Zwart
+Zwart
+Zwart
+
+
+Round 26
+De zichtbare kaarten zijn
+	Locomotief	Roze	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	48
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	4
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Roze	Roze	Geel	Geel	Geel	Oranje	Oranje	Oranje	Rood	Rood	Rood	Rood	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Essen
+	Amsterdam
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+	Bruxelles - Amsterdam
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+
+	Berlin - Roma: 9 points
+	Essen - Berlin
+	Amsterdam - Essen
+	Amsterdam - Frankfurt
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Venezia - Zagrab
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Amsterdam
+	lengte: 1
+	kleur: Zwart
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Roze
+Zwart
+Zwart
+Zwart
+Blauw
+
+
+Round 27
+De zichtbare kaarten zijn
+	Blauw	Roze	Zwart	Zwart	Zwart
+
+	Jeff	(Color [Black])
+punten
+	49
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	10
+DestinationCards:	
+	Kobenhavn - Erzurum: 21 points	
+	Barcelona - Bruxelles: 8 points	
+	Berlin - Bucuresti: 8 points
+Traincards:
+	Geel	Geel	Geel	Oranje	Blauw	Blauw	Zwart	Zwart	Zwart	Roze	Wit
+
+-----------------------------------
+Turn:	Jeff
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Kobenhavn
+	Essen
+	Amsterdam
+	Bruxelles
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Bucuresti
+	Constantinople
+	Angora
+	Erzurum
+U zal 5 steden moeten doorkruisen, voor het kortste pad
+	Barcelona
+	Madrid
+	Pamplona
+	Paris
+	Bruxelles
+U zal 4 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Wien
+	Budapest
+	Bucuresti
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Kobenhavn - Erzurum: 21 points
+	Essen - Kobenhavn
+	Amsterdam - Essen
+	Bruxelles - Amsterdam
+	Bruxelles - Frankfurt
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+	Bucuresti - Constantinople
+	Angora - Constantinople
+	Angora - Erzurum
+
+	Barcelona - Bruxelles: 8 points
+	Madrid - Barcelona
+	Madrid - Pamplona
+	Pamplona - Paris
+	Paris - Bruxelles
+
+	Berlin - Bucuresti: 8 points
+	Berlin - Wien
+	Wien - Budapest
+	Budapest - Bucuresti
+Jeff is trying to build a road between: 
+	from: Wien to: Budapest
+	lengte: 1
+	kleur: Wit
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Jeff is trying to build a road between: 
+	from: Budapest to: Bucuresti
+	lengte: 4
+	kleur: Grijs
+	tunnel: ja
+	minimum aantal locomotieven?: 0
+
+-------------------TRAINCARDS------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+
+1.	Pick an invisible card
+2.	Pick a visible card
+Please type the name of the card you want to pick
+valid
+
+-------------------REFRESHING PICTURES------------------
+the visible traincards are
+Zwart
+Zwart
+Zwart
+Oranje
+Zwart
+
+
+Round 27
+De zichtbare kaarten zijn
+	Oranje	Zwart	Zwart	Zwart	Zwart
+
+	Luka	(Color [Yellow])
+punten
+	48
+Stationnen
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+	not added to a city
+Amount of trains:
+	4
+DestinationCards:	
+	Lisboa - Danzig: 20 points	
+	Amsterdam - Pamplona: 7 points	
+	Berlin - Roma: 9 points
+Traincards:
+	Roze	Roze	Geel	Geel	Geel	Oranje	Oranje	Oranje	Rood	Rood	Rood	Rood	Wit	Blauw
+
+-----------------------------------
+Turn:	Luka
+	1.	Pick some TrainCards
+	2.	Build a track between 2 cities
+	3.	Pick a destination Card
+	4.	Build a station
+
+-------------------DIJKSTRA------------------
+U zal 12 steden moeten doorkruisen, voor het kortste pad
+	Lisboa
+	Madrid
+	Barcelona
+	Pamplona
+	Brest
+	Dieppe
+	Paris
+	Bruxelles
+	Amsterdam
+	Essen
+	Berlin
+	Danzig
+U zal 6 steden moeten doorkruisen, voor het kortste pad
+	Amsterdam
+	Bruxelles
+	Paris
+	Dieppe
+	Brest
+	Pamplona
+U zal 10 steden moeten doorkruisen, voor het kortste pad
+	Berlin
+	Essen
+	Amsterdam
+	Frankfurt
+	Munchen
+	Wien
+	Budapest
+	Zagrab
+	Venezia
+	Roma
+
+-------------------VERTALING NAAR RAILROADS------------------
+
+	Lisboa - Danzig: 20 points
+	Lisboa - Madrid
+	Madrid - Barcelona
+	Barcelona - Pamplona
+	Pamplona - Brest
+	Brest - Dieppe
+	Dieppe - Paris
+	Paris - Bruxelles
+	Bruxelles - Amsterdam
+	Amsterdam - Essen
+	Essen - Berlin
+	Berlin - Danzig
+
+	Amsterdam - Pamplona: 7 points
+	Bruxelles - Amsterdam
+	Paris - Bruxelles
+	Dieppe - Paris
+	Brest - Dieppe
+	Pamplona - Brest
+
+	Berlin - Roma: 9 points
+	Essen - Berlin
+	Amsterdam - Essen
+	Amsterdam - Frankfurt
+	Frankfurt - Munchen
+	Munchen - Wien
+	Wien - Budapest
+	Zagrab - Budapest
+	Venezia - Zagrab
+	Venezia - Roma
+Luka is trying to build a road between: 
+	from: Bruxelles to: Amsterdam
+	lengte: 1
+	kleur: Zwart
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+Luka is trying to build a road between: 
+	from: Pamplona to: Brest
+	lengte: 4
+	kleur: Roze
+	tunnel: nee
+	minimum aantal locomotieven?: 0
+
+-------------------BUILDING A TRACK------------------
+
+-------------------CHECKING FOR SOME 'VITURAL' RAILROADS TO BE MADE WITH STATIONS------------------
+the visible traincards are
+Oranje
+Zwart
+Zwart
+Zwart
+Zwart
