@@ -31,7 +31,7 @@ Het UML moet ik ook nog maken, maar ik ben er nog niet helemaal uit hoe ik rond 
 
 ## UML
 
-![uml](uml.jpg) 
+![uml](UML.jpg) 
 
 Veel speelplezier
 Jonas Van Der Donckt
